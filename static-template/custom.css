@@ -1,0 +1,397 @@
+/** {
+	border: 1px solid yellow;
+}*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Main Header */
+
+.main-header {
+	background-image: url("images/bg-header-nav.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+
+.main-banner {
+	background-image: url("images/bg-header-main.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1186px;
+	margin: 0 auto;
+}
+
+h2.logo {
+	background-image: url("images/logo-Kostech.png");
+	background-repeat: no-repeat;
+	text-indent: -10000px;
+	width: 360px;
+	height: 74px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.main-header nav {
+	float: right;
+	margin-top: 20px;
+}
+
+.main-header nav h2 {
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+.main-header nav li {
+	float: left;
+	list-style-type: none;
+	margin: 10px 0px 10px 40px;
+}
+
+.main-header nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.main-header hr {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+/* Section Motto */
+
+.motto {
+	width: 100%;
+	margin: 0 auto 50px;
+	padding-top: 100px;
+	max-width: 1800px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.motto img {
+	display: block;
+	margin: 10px auto;
+}
+
+.motto h1 {
+	margin: 0;
+}
+
+.find-out {
+	width: 100%;
+	margin: 100px auto;
+	max-width: 800px;
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 60px;
+}
+
+.find-out p {
+	margin: 0;
+}
+
+button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 2px solid rgb(15,126,194);
+    cursor:pointer;
+    overflow: hidden;
+    margin: 20px auto 40px;
+    height:60px;
+	width:250px;
+}
+
+/* Section About Us */
+
+.about-header {
+	font-size: 2.3em;
+	font-weight: bold;
+	color: rgb(15,126,194);
+}
+
+.about-us h2 {
+	margin-bottom: 25px;
+}
+
+.about-col1 {
+	width: 45%;
+	float: left;
+	padding-right: 5%;
+}
+
+.about-col2 {
+	width: 45%;
+	float: right;
+	padding-left: 5%;
+}
+
+.about-us p {
+	font-size: 1.1em;
+	line-height: 160%;
+	color: rgb(77,77,77);
+}
+
+.about-us ul {
+	font-size: 1.1em;
+	line-height: 200%;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.about-us li {
+    list-style-type: none;
+}
+
+.about-us li:before {
+    content: '\2022';
+    color: rgb(15,126,194);
+    padding-right: 0.5em;
+    font-size: 1.6em;
+}
+
+.about-col2 h2 {
+	font-size: 1.8em;
+	font-weight: normal;
+	margin: 20px 0;
+	color: rgb(77,77,77);
+}
+
+.about-col2 h2 a {
+	text-decoration: none;
+}
+
+/* Section Culture */
+
+.culture {
+	background-image: url("images/bg-about.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+	margin-top: 150px;
+	padding: 60px 0 180px;
+}
+
+.frame {
+	height: 400px;
+	width: 84%;
+	margin: 0 auto;
+}
+
+.frame table {
+	background:rgba(1,1,1,0.4);
+	padding: 70px;
+	line-height: 160%;
+}
+
+#line1 {
+	height: 130px;
+}
+
+#line2 {
+	height: 80px;
+}
+
+#line3 {
+	height: 50px;
+}
+
+th {
+    width: 45%;
+    vertical-align: top;
+    text-align: right;
+    font-size: 1.1em;
+    padding-right: 70px;
+}
+
+td {
+    width: 55%;
+    vertical-align: top;
+    font-size: 0.97em;
+}
+
+
+/* Section Latest News */
+
+.latest-news {
+	background-image: url("images/bg-news.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 60px 0;
+}
+
+.latest-news h2 {
+	text-align: center;
+	font-size: 3.9em;
+	font-weight: bold;
+	color: rgb(51,51,51);
+}
+
+.news-item {
+	float: left;
+}
+
+.gallery {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.news-item {
+	width: 27%;
+	margin: 0 auto;
+	padding: 0 3%;
+	color: rgb(77,77,77);
+}
+
+.news-item img.news-image {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.news-item h5 {
+	font-size: 1.5em;
+	color: rgb(51,51,51);
+}
+
+.read {
+	font-size: 0.9em;
+	color: rgb(15,126,194);
+}
+
+.read img {
+	margin-left: 7px;
+}
+
+/* Section Contact Us */
+
+.contact {
+	background-image: url("images/bg-contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+/*	height: 800px;*/
+	padding: 60px 0;
+	color: white;
+	text-align: center;
+}
+
+.contact-info {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto 100px;
+}
+
+.contact h2 {
+	font-size: 3em;
+}
+
+.contact-info p {
+	margin-bottom: 10px;
+	line-height: 160%;
+}
+
+.icon {
+	margin-right: 20px;
+	height: 25px;
+}
+
+.social {
+	margin-top: 10px;
+}
+
+.contact h3 {
+	font-size: 1.5em;
+}
+
+
+/* Section Map */
+
+.map {
+	position: relative;
+}
+
+.location {
+	position: absolute;
+	top: 200px;
+	left: 840px;
+}
+
+.location div {
+	float: left;
+}
+
+#pin img {
+	width: 100%;
+	margin-top: 5px;
+}
+
+#address p {
+	margin: 0 20px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: rgb(51,51,51);
+}
+
+#address a {
+	display: inline-block;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+
+/* Section Footer */
+
+footer {
+	background-color: rgb(34,34,34);
+	color: white;
+}
+
+footer ul {
+	padding: 30px 0;
+}
+
+footer li {
+	list-style-type: none;
+	font-size: 0.94em;
+	color: rgb(204,204,204);
+}
+
+footer li#left-foot {
+	float: left;
+}
+
+footer li#right-foot {
+	float: right;
+}
+
+
+
+.blue-text {
+	color: rgb(15,126,194);
+}
+
+
+/* Clearfix */
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
