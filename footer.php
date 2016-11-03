@@ -13,13 +13,14 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'kostech' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'kostech' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'kostech' ), 'kostech', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer>
+		<div class="wrapper">
+			<ul class="clearfix">
+				<li id="left-foot">Copyright @ 2016 KOSTECH All rights reserved</li>
+				<li id="right-foot">Terms & Conditions  Privacy Policy</li>
+			</ul>
+		</div><!-- .wrapper -->
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
