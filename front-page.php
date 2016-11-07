@@ -32,7 +32,7 @@ get_header(); ?>
 				</div>
 			</section>
 
-			<section class="about-us">
+			<section id="about-us">
 				<div class="wrapper clearfix">
 					<div class="about-header">
 						<h2>ABOUT US</h2>
@@ -62,9 +62,9 @@ get_header(); ?>
 				</div>
 			</section>
 
-			<section class="culture">
+			<section id="culture">
 				<div class="wrapper">
-					<div class="motto">
+					<div class="culture-header">
 					<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">KNOW HOW</span></h3>
 					</div>
 						<table>
@@ -85,30 +85,36 @@ get_header(); ?>
 			</section>
 
 			<section class="latest-news">
-				<div class="wrapper clearfix">
+				<div class="gallery clearfix">
 					<h2>LATEST NEWS</h2>
-					<div class="news-item">
-						<h5>Nullam vulputate consequat</h5>
-						<img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png">
-						<p>Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</p>
-						<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p>
-					</div>
-					<div class="news-item">
-						<h5>Fusce at magna neque</h5>
-						<img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png">
-						<p>Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</p>
-						<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p>
-					</div>
-					<div class="news-item">
-						<h5>Curabitur sollicitudin estum molestie neque</h5>
-						<img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png">
-						<p>Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</p>
-						<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p>
+					<div>
+						<table>
+							<tr>
+								<th>Nullam vulputate consequat</th>
+								<th>Fusce at magna neque</th>
+								<th>Curabitur sollicitudin estum molestie neque</th>
+							</tr>
+							<tr>
+								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png"></td>
+								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png"></td>
+								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png"></td>
+							</tr>
+							<tr>
+								<td>Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</td>
+								<td>Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</td>
+								<td>Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</td>
+							</tr>
+							<tr>
+								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+							</tr>
+						</table>
 					</div>
 				</div>		
 			</section>
 
-			<section class="contact">
+			<section id="contact">
 				<div class="wrapper">
 					<h2>CONTACT US</h2>
 					<div class="contact-info">

@@ -921,7 +921,7 @@ body {
 }
 
 .wrapper {
-	width: 100%;
+	width: 90%;
 	max-width: 1186px;
 	margin: 0 auto;
 }
@@ -1021,7 +1021,7 @@ button {
 	color: rgb(15,126,194);
 }
 
-.about-us h2 {
+#about-us h2 {
 	margin-bottom: 25px;
 }
 
@@ -1037,24 +1037,24 @@ button {
 	padding-left: 5%;
 }
 
-.about-us p {
+#about-us p {
 	font-size: 1.1em;
 	line-height: 160%;
 	color: rgb(77,77,77);
 }
 
-.about-us ul {
+#about-us ul {
 	font-size: 1.1em;
 	line-height: 200%;
 	padding-left: 0;
 	margin-top: 0;
 }
 
-.about-us li {
+#about-us li {
     list-style-type: none;
 }
 
-.about-us li:before {
+#about-us li:before {
     content: '\2022';
     color: rgb(15,126,194);
     padding-right: 0.5em;
@@ -1074,7 +1074,7 @@ button {
 
 /* Section Culture */
 
-.culture {
+#culture {
 	background-image: url("images/bg-about.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1084,7 +1084,17 @@ button {
 	padding: 60px 0 180px;
 }
 
-.culture table {
+.culture-header {
+	width: 100%;
+	margin: 0 auto 50px;
+	padding-top: 40px;
+	max-width: 1800px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#culture table {
 	background:rgba(1,1,1,0.4);
 	padding: 70px 70px 35px 50px;
 	line-height: 160%;
@@ -1092,7 +1102,7 @@ button {
 	margin: 0 auto;
 }
 
-th {
+#culture th {
     width: 45%;
     vertical-align: top;
     text-align: right;
@@ -1100,7 +1110,7 @@ th {
     padding-right: 70px;
 }
 
-td {
+#culture td {
     width: 55%;
     vertical-align: top;
     font-size: 0.97em;
@@ -1123,32 +1133,46 @@ td {
 	font-size: 3.9em;
 	font-weight: bold;
 	color: rgb(51,51,51);
+	margin-bottom: 40px;
 }
 
-.news-item {
-	float: left;
-}
-
-.news-item {
-	width: 33%;
+.gallery {
+	width: 90%;
+	max-width: 1260px;
 	margin: 0 auto;
-	padding: 0 3%;
-	color: rgb(77,77,77);
 }
 
-.news-item img.news-image {
+.latest-news table {
 	width: 100%;
-	margin: 0 auto;
 }
 
-.news-item h5 {
-	font-size: 1.5em;
+.latest-news th {
+    text-align: left;
+    padding: 0 30px 10px;
+    vertical-align: top;
+    font-size: 1.6em;
 	color: rgb(51,51,51);
+}
+
+.latest-news td {
+    font-size: 0.97em;
+    font-weight: bold;
+    width: 30%;
+    vertical-align: top;
+    padding: 10px 30px;
+    color: rgb(77,77,77);
+}
+
+.latest-news td .news-image {
+	display: block;
+	width: 100%;
+    margin: 0 auto;
 }
 
 .read {
 	font-size: 0.9em;
 	color: rgb(15,126,194);
+	margin-top: 0;
 }
 
 .read img {
@@ -1157,7 +1181,7 @@ td {
 
 /* Section Contact Us */
 
-.contact {
+#contact {
 	background-image: url("images/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1173,7 +1197,7 @@ td {
 	margin: 0 auto 100px;
 }
 
-.contact h2 {
+#contact h2 {
 	font-size: 3em;
 }
 
@@ -1191,7 +1215,7 @@ td {
 	margin-top: 10px;
 }
 
-.contact h3 {
+#contact h3 {
 	font-size: 1.5em;
 }
 
@@ -1265,7 +1289,7 @@ footer li#right-foot {
 		font-size: 6vw;
 	}
 
-	.culture h3 {
+	#culture h3 {
 		font-size: 4vw;
 	}
 
@@ -1274,11 +1298,6 @@ footer li#right-foot {
 
 
 @media (max-width: 1300px) { 
-	
-
-	.wrapper {
-		width: 90%;
-	}
 
 	.about-col1 {
 		width: 47%;
@@ -1294,10 +1313,6 @@ footer li#right-foot {
 
 	.latest-news h2 {
 		font-size: 4vw;
-	}
-
-	.news-item {
-		padding: 0 2%;
 	}
 
 }
@@ -1327,16 +1342,16 @@ footer li#right-foot {
 		font-size: 6vw;
 	}
 
-	.culture {
+	#culture {
 		margin-top: 100px;
 		padding: 0 0 80px;
 	}
 
-	.culture h3 {
+	#culture h3 {
 		font-size: 6vw;
 	}
 
-	.culture table {
+	#culture table {
 		background:rgba(1,1,1,0.4);
 		padding: 70px 35px 15px 25px;
 		line-height: 150%;
@@ -1344,7 +1359,7 @@ footer li#right-foot {
 		margin: 0 auto;
 	}
 
-	th {
+	#culture th {
 	    width: 45%;
 	    vertical-align: top;
 	    text-align: right;
@@ -1352,7 +1367,7 @@ footer li#right-foot {
 	    padding-right: 25px;
 	}
 
-	td {
+	#culture td {
 	    width: 55%;
 	    vertical-align: top;
 	    font-size: 0.97em;

@@ -30,10 +30,10 @@
 			<nav role="navigation">
 				<h2>Main Navigation</h2>
 				<ul class="clearfix">
-					<li><a href="">PROJECTS</a></li>
-					<li><a href="">ABOUT US</a></li>
-					<li><a href="">WHAT WE DO</a></li>
-					<li><a href="">CONTACT US</a></li>
+					<li><a href="#">PROJECTS</a></li>
+					<li><a href="#about-us">ABOUT US</a></li>
+					<li><a href="#culture">WHAT WE DO</a></li>
+					<li><a href="#contact">CONTACT US</a></li>
 				</ul>
 			</nav><!-- #site-navigation -->
 			<hr>
