@@ -247,15 +247,15 @@ optgroup {
 	font-weight: bold;
 }
 
-table {
+/*table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 
-td,
+/*td,
 th {
 	padding: 0;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Typography
@@ -390,10 +390,10 @@ figure {
 	margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
 }
 
-table {
+/*table {
 	margin: 0 0 1.5em;
 	width: 100%;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Forms
@@ -404,24 +404,24 @@ input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
+/*	border-radius: 3px;*/
 	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+/*	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);*/
 	color: rgba(0, 0, 0, .8);
 	font-size: 12px;
 	font-size: 0.75rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+/*	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
 }
 
-button:hover,
+/*button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	border-color: #ccc #bbb #aaa;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-}
+}*/
 
 button:focus,
 input[type="button"]:focus,
@@ -979,6 +979,7 @@ h2.logo {
 .motto img {
 	display: block;
 	margin: 10px auto;
+	width: 26%;
 }
 
 .motto h1 {
@@ -1002,7 +1003,7 @@ button {
     background-color: transparent;
     background-repeat:no-repeat;
     color: white;
-    font-size: 0.8em;
+    font-size: 18px;
     font-weight: bold;
     border: 2px solid rgb(15,126,194);
     cursor:pointer;
@@ -1083,28 +1084,12 @@ button {
 	padding: 60px 0 180px;
 }
 
-.frame {
-	height: 400px;
+.culture table {
+	background:rgba(1,1,1,0.4);
+	padding: 70px 70px 35px 50px;
+	line-height: 160%;
 	width: 84%;
 	margin: 0 auto;
-}
-
-.frame table {
-	background:rgba(1,1,1,0.4);
-	padding: 70px;
-	line-height: 160%;
-}
-
-#line1 {
-	height: 130px;
-}
-
-#line2 {
-	height: 80px;
-}
-
-#line3 {
-	height: 50px;
 }
 
 th {
@@ -1119,6 +1104,7 @@ td {
     width: 55%;
     vertical-align: top;
     font-size: 0.97em;
+    padding-bottom: 35px;
 }
 
 
@@ -1143,13 +1129,8 @@ td {
 	float: left;
 }
 
-.gallery {
-	width: 70%;
-	margin: 0 auto;
-}
-
 .news-item {
-	width: 27%;
+	width: 33%;
 	margin: 0 auto;
 	padding: 0 3%;
 	color: rgb(77,77,77);
@@ -1181,7 +1162,6 @@ td {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-/*	height: 800px;*/
 	padding: 60px 0;
 	color: white;
 	text-align: center;
@@ -1219,35 +1199,22 @@ td {
 /* Section Map */
 
 .map {
-	position: relative;
-}
-
-.location {
-	position: absolute;
-	top: 200px;
-	left: 840px;
-}
-
-.location div {
-	float: left;
-}
-
-#pin img {
+	background-image: url("images/bg-map-pinned.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 	width: 100%;
-	margin-top: 5px;
+	text-align: center;
 }
 
-#address p {
-	margin: 0 20px;
-	font-weight: bold;
-	font-size: 1.5em;
-	color: rgb(51,51,51);
+.map div {
+	height: 496px;
+	line-height: 550px;
 }
 
-#address a {
-	display: inline-block;
-	margin: 10px 20px;
+.map a {
 	text-decoration: none;
+	font-size: 1.2em;
 }
 
 /* Section Footer */
@@ -1289,4 +1256,107 @@ footer li#right-foot {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+
+@media (max-width: 1600px) { 
+
+	.motto h1 {
+		font-size: 6vw;
+	}
+
+	.culture h3 {
+		font-size: 4vw;
+	}
+
+}
+
+
+
+@media (max-width: 1300px) { 
+	
+
+	.wrapper {
+		width: 90%;
+	}
+
+	.about-col1 {
+		width: 47%;
+		float: left;
+		padding-right: 3%;
+	}
+
+	.about-col2 {
+		width: 47%;
+		float: right;
+		padding-left: 3%;
+	}
+
+	.latest-news h2 {
+		font-size: 4vw;
+	}
+
+	.news-item {
+		padding: 0 2%;
+	}
+
+}
+
+
+@media (max-width: 1024px) { 
+	.about-col1 {
+		width: 48%;
+		float: left;
+		padding-right: 2%;
+	}
+
+	.about-col2 {
+		width: 48%;
+		float: right;
+		padding-left: 2%;
+	}
+
+
+	
+}
+
+
+@media (max-width: 768px) { 
+
+	.latest-news h2 {
+		font-size: 6vw;
+	}
+
+	.culture {
+		margin-top: 100px;
+		padding: 0 0 80px;
+	}
+
+	.culture h3 {
+		font-size: 6vw;
+	}
+
+	.culture table {
+		background:rgba(1,1,1,0.4);
+		padding: 70px 35px 15px 25px;
+		line-height: 150%;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	th {
+	    width: 45%;
+	    vertical-align: top;
+	    text-align: right;
+	    font-size: 1.1em;
+	    padding-right: 25px;
+	}
+
+	td {
+	    width: 55%;
+	    vertical-align: top;
+	    font-size: 0.97em;
+	    padding-bottom: 35px;
+	}
+
 }

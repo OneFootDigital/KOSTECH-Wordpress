@@ -29,8 +29,14 @@
 			<h2 class="logo">Kostech</h2>
 			<nav role="navigation">
 				<h2>Main Navigation</h2>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				<ul class="clearfix">
+					<li><a href="">PROJECTS</a></li>
+					<li><a href="">ABOUT US</a></li>
+					<li><a href="">WHAT WE DO</a></li>
+					<li><a href="">CONTACT US</a></li>
+				</ul>
 			</nav><!-- #site-navigation -->
+			<hr>
 		</div><!-- .wrapper -->
 	</header><!-- .main-header -->
 

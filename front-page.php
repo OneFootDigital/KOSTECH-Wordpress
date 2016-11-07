@@ -67,27 +67,25 @@ get_header(); ?>
 					<div class="motto">
 					<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">KNOW HOW</span></h3>
 					</div>
-					<div class="frame">
 						<table>
-							<tr id="line1">
+							<tr>
 								<th>DIVERSE INDUSTRY EXPERIENCE</th>
 								<td>We’ve been involved in a diverse range of new, repair and renovation projects. We’ve provided professional plastering services for office spaces, retail ventures, restaurants, childcare centres and apartment facilities.</td>
 							</tr>
-							<tr id="line2">
+							<tr>
 								<th>QUALITY YOU CAN TRUST</th>
 								<td>At KOSTECH, we go above and beyond to deliver a superior result on your project.</td>
 							</tr>
-							<tr id="line3">
+							<tr>
 								<th>OUR COMMITMENT</th>
 								<td>We’re committed to ensuring your project is on schedule and on budget, without compromising on quality.</td>
 							</tr>
 						</table>
-					</div>
 				</div>	
 			</section>
 
 			<section class="latest-news">
-				<div class="gallery clearfix">
+				<div class="wrapper clearfix">
 					<h2>LATEST NEWS</h2>
 					<div class="news-item">
 						<h5>Nullam vulputate consequat</h5>
@@ -125,16 +123,8 @@ get_header(); ?>
 			</section>
 
 			<section class="map">
-				<img src="<?php echo(get_template_directory_uri()); ?>/images/bg-map.jpg" id="parent-map">
-				<div class="location clearfix">
-					<div id="pin">
-						<img src="<?php echo(get_template_directory_uri()); ?>/images/pin-map.png">
-					</div>
-					<div id="address">
-						<p>412 Stone Way<br>
-						Melbourne</p>
-						<a href="" class="blue-text">View larger map</a>
-					</div>
+				<div>
+					<a href="" class="blue-text">View larger map</a>
 				</div>
 			</section>
 			<!-- End Homepage Content -->
