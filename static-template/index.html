@@ -10,27 +10,26 @@
 	<header class="main-header">
 		<div class="wrapper clearfix">
 			<h2 class="logo">Kostech</h2>
-			<nav>
+			<nav role="navigation">
 				<h2>Main Navigation</h2>
 				<ul class="clearfix">
-					<li><a href="">PROJECTS</a></li>
-					<li><a href="">ABOUT US</a></li>
-					<li><a href="">WHAT WE DO</a></li>
-					<li><a href="">CONTACT US</a></li>
+					<li><a href="#">PROJECTS</a></li>
+					<li><a href="#about-us">ABOUT US</a></li>
+					<li><a href="#culture">WHAT WE DO</a></li>
+					<li><a href="#contact">CONTACT US</a></li>
 				</ul>
-			</nav>
+			</nav><!-- #site-navigation -->
 			<hr>
-		</div>			
-	</header>
+		</div><!-- .wrapper -->
+	</header><!-- .main-header -->
 
 	<!-- Start Homepage Content -->
-
 	<section class="main-banner">
 		<div class="motto">
-			<img src="images/top-block.png">
+			<img src="<?php echo(get_template_directory_uri()); ?>//images/top-block.png">
 			<h1>MELBOURNE'S BEST<br>
 			<span class="blue-text">PLASTERING</span> CONTRACTORS</h1>
-			<img src="images/bottom-block.png">		
+			<img src="<?php echo(get_template_directory_uri()); ?>/images/bottom-block.png">		
 		</div>
 		<div class="find-out">
 			<p>Donec imperdiet suscipit purus, sed</p>
@@ -39,7 +38,7 @@
 		</div>
 	</section>
 
-	<section class="about-us">
+	<section id="about-us">
 		<div class="wrapper clearfix">
 			<div class="about-header">
 				<h2>ABOUT US</h2>
@@ -69,62 +68,66 @@
 		</div>
 	</section>
 
-	<section class="culture">
+	<section id="culture">
 		<div class="wrapper">
-			<div class="motto">
+			<div class="culture-header">
 			<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">KNOW HOW</span></h3>
 			</div>
-			<div class="frame">
 				<table>
-					<tr id="line1">
+					<tr>
 						<th>DIVERSE INDUSTRY EXPERIENCE</th>
 						<td>We’ve been involved in a diverse range of new, repair and renovation projects. We’ve provided professional plastering services for office spaces, retail ventures, restaurants, childcare centres and apartment facilities.</td>
 					</tr>
-					<tr id="line2">
+					<tr>
 						<th>QUALITY YOU CAN TRUST</th>
 						<td>At KOSTECH, we go above and beyond to deliver a superior result on your project.</td>
 					</tr>
-					<tr id="line3">
+					<tr>
 						<th>OUR COMMITMENT</th>
 						<td>We’re committed to ensuring your project is on schedule and on budget, without compromising on quality.</td>
 					</tr>
 				</table>
-			</div>
 		</div>	
 	</section>
 
 	<section class="latest-news">
 		<div class="gallery clearfix">
 			<h2>LATEST NEWS</h2>
-			<div class="news-item">
-				<h5>Nullam vulputate consequat</h5>
-				<img class="news-image" src="images/bg-news1.png">
-				<p>Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</p>
-				<p class="read">Read More <img src="images/arrow-read-more.png"></p>
-			</div>
-			<div class="news-item">
-				<h5>Fusce at magna neque</h5>
-				<img class="news-image" src="images/bg-news2.png">
-				<p>Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</p>
-				<p class="read">Read More <img src="images/arrow-read-more.png"></p>
-			</div>
-			<div class="news-item">
-				<h5>Curabitur sollicitudin estum molestie neque</h5>
-				<img class="news-image" src="images/bg-news3.png">
-				<p>Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</p>
-				<p class="read">Read More <img src="images/arrow-read-more.png"></p>
+			<div>
+				<table>
+					<tr>
+						<th>Nullam vulputate consequat</th>
+						<th>Fusce at magna neque</th>
+						<th>Curabitur sollicitudin estum molestie neque</th>
+					</tr>
+					<tr>
+						<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png"></td>
+						<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png"></td>
+						<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png"></td>
+					</tr>
+					<tr>
+						<td>Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</td>
+						<td>Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</td>
+						<td>Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</td>
+					</tr>
+					<tr>
+						<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+						<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+						<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
+					</tr>
+				</table>
 			</div>
 		</div>		
 	</section>
 
-	<section class="contact">
+	<section id="contact">
 		<div class="wrapper">
 			<h2>CONTACT US</h2>
 			<div class="contact-info">
-				<p><img class="icon" src="images/phone-contact.png">123-456-7890</p>
-				<p><img class="icon" src="images/pin.png">412 Stone Way<br>
+				<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/phone-contact.png">123-456-7890</p>
+				<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/pin.png">412 Stone Way<br>
 				Melbourne</p>
-				<a href=""><img class="social" src="images/linkedin.png"></a>
+				<a href=""><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png"></a>
 			</div>
 			<h3 class="blue-text">LEAVE US A MESSAGE</h3>
 			<button>SUBMIT</button>
@@ -132,19 +135,10 @@
 	</section>
 
 	<section class="map">
-		<img src="images/bg-map.jpg" id="parent-map">
-		<div class="location clearfix">
-			<div id="pin">
-				<img src="images/pin-map.png">
-			</div>
-			<div id="address">
-				<p>412 Stone Way<br>
-				Melbourne</p>
-				<a href="" class="blue-text">View larger map</a>
-			</div>
+		<div>
+			<a href="" class="blue-text">View larger map</a>
 		</div>
 	</section>
-
 	<!-- End Homepage Content -->
 
 	<footer>
@@ -153,7 +147,7 @@
 				<li id="left-foot">Copyright @ 2016 KOSTECH All rights reserved</li>
 				<li id="right-foot">Terms & Conditions  Privacy Policy</li>
 			</ul>
-		</div>
+		</div><!-- .wrapper -->
 	</footer>
 
 </body>

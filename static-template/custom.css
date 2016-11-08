@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-	width: 100%;
+	width: 90%;
 	max-width: 1186px;
 	margin: 0 auto;
 }
@@ -85,6 +85,7 @@ h2.logo {
 .motto img {
 	display: block;
 	margin: 10px auto;
+	width: 26%;
 }
 
 .motto h1 {
@@ -108,7 +109,7 @@ button {
     background-color: transparent;
     background-repeat:no-repeat;
     color: white;
-    font-size: 0.8em;
+    font-size: 18px;
     font-weight: bold;
     border: 2px solid rgb(15,126,194);
     cursor:pointer;
@@ -126,7 +127,7 @@ button {
 	color: rgb(15,126,194);
 }
 
-.about-us h2 {
+#about-us h2 {
 	margin-bottom: 25px;
 }
 
@@ -142,24 +143,24 @@ button {
 	padding-left: 5%;
 }
 
-.about-us p {
+#about-us p {
 	font-size: 1.1em;
 	line-height: 160%;
 	color: rgb(77,77,77);
 }
 
-.about-us ul {
+#about-us ul {
 	font-size: 1.1em;
 	line-height: 200%;
 	padding-left: 0;
 	margin-top: 0;
 }
 
-.about-us li {
+#about-us li {
     list-style-type: none;
 }
 
-.about-us li:before {
+#about-us li:before {
     content: '\2022';
     color: rgb(15,126,194);
     padding-right: 0.5em;
@@ -179,7 +180,7 @@ button {
 
 /* Section Culture */
 
-.culture {
+#culture {
 	background-image: url("images/bg-about.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -189,31 +190,25 @@ button {
 	padding: 60px 0 180px;
 }
 
-.frame {
-	height: 400px;
+.culture-header {
+	width: 100%;
+	margin: 0 auto 50px;
+	padding-top: 40px;
+	max-width: 1800px;
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#culture table {
+	background:rgba(1,1,1,0.4);
+	padding: 70px 70px 35px 50px;
+	line-height: 160%;
 	width: 84%;
 	margin: 0 auto;
 }
 
-.frame table {
-	background:rgba(1,1,1,0.4);
-	padding: 70px;
-	line-height: 160%;
-}
-
-#line1 {
-	height: 130px;
-}
-
-#line2 {
-	height: 80px;
-}
-
-#line3 {
-	height: 50px;
-}
-
-th {
+#culture th {
     width: 45%;
     vertical-align: top;
     text-align: right;
@@ -221,10 +216,11 @@ th {
     padding-right: 70px;
 }
 
-td {
+#culture td {
     width: 55%;
     vertical-align: top;
     font-size: 0.97em;
+    padding-bottom: 35px;
 }
 
 
@@ -243,37 +239,46 @@ td {
 	font-size: 3.9em;
 	font-weight: bold;
 	color: rgb(51,51,51);
-}
-
-.news-item {
-	float: left;
+	margin-bottom: 40px;
 }
 
 .gallery {
-	width: 70%;
+	width: 90%;
+	max-width: 1260px;
 	margin: 0 auto;
 }
 
-.news-item {
-	width: 27%;
-	margin: 0 auto;
-	padding: 0 3%;
-	color: rgb(77,77,77);
-}
-
-.news-item img.news-image {
+.latest-news table {
 	width: 100%;
-	margin: 0 auto;
 }
 
-.news-item h5 {
-	font-size: 1.5em;
+.latest-news th {
+    text-align: left;
+    padding: 0 30px 10px;
+    vertical-align: top;
+    font-size: 1.6em;
 	color: rgb(51,51,51);
+}
+
+.latest-news td {
+    font-size: 0.97em;
+    font-weight: bold;
+    width: 30%;
+    vertical-align: top;
+    padding: 10px 30px;
+    color: rgb(77,77,77);
+}
+
+.latest-news td .news-image {
+	display: block;
+	width: 100%;
+    margin: 0 auto;
 }
 
 .read {
 	font-size: 0.9em;
 	color: rgb(15,126,194);
+	margin-top: 0;
 }
 
 .read img {
@@ -282,12 +287,11 @@ td {
 
 /* Section Contact Us */
 
-.contact {
+#contact {
 	background-image: url("images/bg-contact.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-/*	height: 800px;*/
 	padding: 60px 0;
 	color: white;
 	text-align: center;
@@ -299,7 +303,7 @@ td {
 	margin: 0 auto 100px;
 }
 
-.contact h2 {
+#contact h2 {
 	font-size: 3em;
 }
 
@@ -317,7 +321,7 @@ td {
 	margin-top: 10px;
 }
 
-.contact h3 {
+#contact h3 {
 	font-size: 1.5em;
 }
 
@@ -325,35 +329,22 @@ td {
 /* Section Map */
 
 .map {
-	position: relative;
-}
-
-.location {
-	position: absolute;
-	top: 200px;
-	left: 840px;
-}
-
-.location div {
-	float: left;
-}
-
-#pin img {
+	background-image: url("images/bg-map-pinned.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 	width: 100%;
-	margin-top: 5px;
+	text-align: center;
 }
 
-#address p {
-	margin: 0 20px;
-	font-weight: bold;
-	font-size: 1.5em;
-	color: rgb(51,51,51);
+.map div {
+	height: 496px;
+	line-height: 550px;
 }
 
-#address a {
-	display: inline-block;
-	margin: 10px 20px;
+.map a {
 	text-decoration: none;
+	font-size: 1.2em;
 }
 
 /* Section Footer */
@@ -395,4 +386,98 @@ footer li#right-foot {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+
+@media (max-width: 1600px) { 
+
+	.motto h1 {
+		font-size: 6vw;
+	}
+
+	#culture h3 {
+		font-size: 4vw;
+	}
+
+}
+
+
+
+@media (max-width: 1300px) { 
+
+	.about-col1 {
+		width: 47%;
+		float: left;
+		padding-right: 3%;
+	}
+
+	.about-col2 {
+		width: 47%;
+		float: right;
+		padding-left: 3%;
+	}
+
+	.latest-news h2 {
+		font-size: 4vw;
+	}
+
+}
+
+
+@media (max-width: 1024px) { 
+	.about-col1 {
+		width: 48%;
+		float: left;
+		padding-right: 2%;
+	}
+
+	.about-col2 {
+		width: 48%;
+		float: right;
+		padding-left: 2%;
+	}
+
+
+	
+}
+
+
+@media (max-width: 768px) { 
+
+	.latest-news h2 {
+		font-size: 6vw;
+	}
+
+	#culture {
+		margin-top: 100px;
+		padding: 0 0 80px;
+	}
+
+	#culture h3 {
+		font-size: 6vw;
+	}
+
+	#culture table {
+		background:rgba(1,1,1,0.4);
+		padding: 70px 35px 15px 25px;
+		line-height: 150%;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	#culture th {
+	    width: 45%;
+	    vertical-align: top;
+	    text-align: right;
+	    font-size: 1.1em;
+	    padding-right: 25px;
+	}
+
+	#culture td {
+	    width: 55%;
+	    vertical-align: top;
+	    font-size: 0.97em;
+	    padding-bottom: 35px;
+	}
+
 }
