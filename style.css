@@ -1080,9 +1080,6 @@ button {
 	color: rgb(77,77,77);
 }
 
-.about-col2 h2 a {
-	text-decoration: none;
-}
 
 #about-us hr {
     background-color: rgb(15,126,194);
@@ -1387,21 +1384,32 @@ footer li#right-foot {
 }
 
 
+
+
+/* ######  MEDIA QUERIES  ###### */
+
+
+
 @media (max-width: 1600px) { 
 
 	.motto h1 {
 		font-size: 6vw;
 	}
 
-	#culture h3 {
-		font-size: 4vw;
-	}
-
 }
 
 
 
-@media (max-width: 1300px) { 
+@media (max-width: 1300px) {
+
+	.about-header {
+		font-size: 1.8em;
+	}
+
+	#culture h3 {
+		font-size: 1em;
+		line-height: 130%;
+	}
 
 	.about-col1 {
 		width: 47%;
@@ -1416,13 +1424,30 @@ footer li#right-foot {
 	}
 
 	.latest-news h2 {
-		font-size: 4vw;
+		font-size: 2.6em;
+	}
+
+	#contact h2 {
+		font-size: 2.8em;
 	}
 
 }
 
 
 @media (max-width: 1024px) { 
+
+	.about-col2 h2 {
+		font-size: 1.5em;
+	}
+
+
+	#culture h3 {
+		font-size: 0.8em;
+		line-height: 130%;
+	}
+
+	
+
 	.about-col1 {
 		width: 48%;
 		float: left;
@@ -1436,14 +1461,16 @@ footer li#right-foot {
 	}
 
 
+
+
 	
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
 
-	.latest-news h2 {
-		font-size: 6vw;
+	.about-header {
+		font-size: 1.6em;
 	}
 
 	#culture {
@@ -1452,7 +1479,7 @@ footer li#right-foot {
 	}
 
 	#culture h3 {
-		font-size: 6vw;
+		font-size: 0.7em;
 	}
 
 	#culture table {
@@ -1476,6 +1503,14 @@ footer li#right-foot {
 	    vertical-align: top;
 	    font-size: 0.97em;
 	    padding-bottom: 35px;
+	}
+
+	.latest-news h2 {
+		font-size: 2.2em;
+	}
+
+	#contact h2 {
+		font-size: 2.3em;
 	}
 
 }
