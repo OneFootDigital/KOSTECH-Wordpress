@@ -337,6 +337,17 @@ big {
 	font-size: 125%;
 }
 
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url("fonts/Montserrat-ExtraBold.otf");
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url("fonts/Montserrat-Regular.otf");
+}
+
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -897,7 +908,7 @@ object {
 }*/
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat-Regular', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -922,7 +933,7 @@ body {
 
 .wrapper {
 	width: 90%;
-	max-width: 1186px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -950,7 +961,7 @@ h2.logo {
 .main-header nav li {
 	float: left;
 	list-style-type: none;
-	margin: 10px 0px 10px 40px;
+	margin: 10px 0px 10px 52px;
 }
 
 .main-header nav li a {
@@ -967,13 +978,13 @@ h2.logo {
 /* Section Motto */
 
 .motto {
+	font-family: 'Montserrat-ExtraBold', sans-serif;
 	width: 100%;
 	margin: 0 auto 50px;
-	padding-top: 100px;
+	padding-top: 90px;
 	max-width: 1800px;
 	text-align: center;
-	font-size: 3em;
-	font-weight: bold;
+	font-size: 3.2em;
 }
 
 .motto img {
@@ -983,12 +994,13 @@ h2.logo {
 }
 
 .motto h1 {
-	margin: 0;
+	margin: 20px 0;
+	line-height: 110%;
 }
 
 .find-out {
 	width: 100%;
-	margin: 100px auto;
+	margin: 100px auto 90px;
 	max-width: 800px;
 	text-align: center;
 	font-size: 1.5em;
@@ -1009,15 +1021,15 @@ button {
     cursor:pointer;
     overflow: hidden;
     margin: 20px auto 40px;
-    height:60px;
-	width:250px;
+    height:55px;
+	width:230px;
 }
 
 /* Section About Us */
 
 .about-header {
+	font-family: 'Montserrat-ExtraBold', sans-serif;
 	font-size: 2.3em;
-	font-weight: bold;
 	color: rgb(15,126,194);
 }
 
@@ -1026,15 +1038,15 @@ button {
 }
 
 .about-col1 {
-	width: 45%;
+	width: 47%;
 	float: left;
-	padding-right: 5%;
+	padding-right: 3%;
 }
 
 .about-col2 {
-	width: 45%;
+	width: 47%;
 	float: right;
-	padding-left: 5%;
+	padding-left: 3%;
 }
 
 #about-us p {
@@ -1058,18 +1070,25 @@ button {
     content: '\2022';
     color: rgb(15,126,194);
     padding-right: 0.5em;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 .about-col2 h2 {
 	font-size: 1.8em;
 	font-weight: normal;
-	margin: 20px 0;
+	margin: 10px 0;
 	color: rgb(77,77,77);
 }
 
 .about-col2 h2 a {
 	text-decoration: none;
+}
+
+#about-us hr {
+    background-color: rgb(15,126,194);
+    border: 0;
+    height: 1px;
+    margin: 10px 0;
 }
 
 /* Section Culture */
@@ -1085,19 +1104,20 @@ button {
 }
 
 .culture-header {
+	font-family: 'Montserrat-ExtraBold', sans-serif;
 	width: 100%;
-	margin: 0 auto 50px;
+	margin: 0 auto 65px;
 	padding-top: 40px;
 	max-width: 1800px;
 	text-align: center;
 	font-size: 3em;
-	font-weight: bold;
+	line-height: 155%;
 }
 
 #culture table {
 	background:rgba(1,1,1,0.4);
-	padding: 70px 70px 35px 50px;
-	line-height: 160%;
+	padding: 70px 60px 25px 40px;
+	line-height: 145%;
 	width: 84%;
 	margin: 0 auto;
 }
@@ -1107,7 +1127,7 @@ button {
     vertical-align: top;
     text-align: right;
     font-size: 1.1em;
-    padding-right: 70px;
+    padding-right: 62px;
 }
 
 #culture td {
@@ -1125,15 +1145,15 @@ button {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	padding: 60px 0;
+	padding: 50px 0 85px;
 }
 
 .latest-news h2 {
+	font-family: 'Montserrat-ExtraBold', sans-serif;
 	text-align: center;
-	font-size: 3.9em;
-	font-weight: bold;
+	font-size: 3.5em;
 	color: rgb(51,51,51);
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .gallery {
@@ -1150,13 +1170,13 @@ button {
     text-align: left;
     padding: 0 30px 10px;
     vertical-align: top;
-    font-size: 1.6em;
+    font-size: 1.5em;
 	color: rgb(51,51,51);
+	line-height: 120%;
 }
 
 .latest-news td {
     font-size: 0.97em;
-    font-weight: bold;
     width: 30%;
     vertical-align: top;
     padding: 10px 30px;
@@ -1186,7 +1206,7 @@ button {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	padding: 60px 0;
+	padding: 50px 0 80px;
 	color: white;
 	text-align: center;
 }
@@ -1194,15 +1214,17 @@ button {
 .contact-info {
 	width: 100%;
 	max-width: 400px;
-	margin: 0 auto 100px;
+	margin: 0 auto 70px;
 }
 
 #contact h2 {
-	font-size: 3em;
+	font-family: 'Montserrat-ExtraBold', sans-serif;
+	font-size: 3.5em;
+	margin-bottom: 30px;
 }
 
 .contact-info p {
-	margin-bottom: 10px;
+	margin: 0 0 25px;
 	line-height: 160%;
 }
 
@@ -1212,13 +1234,67 @@ button {
 }
 
 .social {
-	margin-top: 10px;
+	margin-top: 0;
 }
 
 #contact h3 {
+	font-family: 'Montserrat-ExtraBold', sans-serif;
 	font-size: 1.5em;
+	margin-bottom: 20px;
 }
 
+/* Contact Form 7 styling */
+
+.wpcf7-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.wpcf7 p input[type="text"],
+.wpcf7 p input[type="email"],
+.wpcf7 p input[type="tel"],
+.wpcf7 p textarea {
+	background: #eee;
+	border-radius: 0;
+}
+
+.wpcf7 p:nth-child(-n+4) {
+	flex-basis: 32.25%;
+	margin-bottom: 4px;
+}
+
+.wpcf7 p input:nth-child(-n+4) {
+	height: 60px;
+	width: 100%;
+}
+
+.wpcf7 p:nth-child(5) {
+	flex-basis: 100%;
+}
+
+.wpcf7 p textarea {
+	height: 150px;
+}
+
+.wpcf7 p:nth-child(6) {
+	margin: 0 auto;
+}
+
+.wpcf7 p input[type="submit"] {
+	background-color: transparent;
+    background-repeat:no-repeat;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid rgb(15,126,194);
+    cursor:pointer;
+    overflow: hidden;
+    margin: 8px auto 40px;
+    height:55px;
+	width:230px;
+	border-radius: 0;
+}
 
 /* Section Map */
 
@@ -1238,7 +1314,7 @@ button {
 
 .map a {
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 /* Section Footer */
@@ -1259,12 +1335,12 @@ footer.entry-footer a, .comment-meta a, .says {
 	
 footer ul {
 	margin: 0;
-	padding: 30px 0;
+	padding: 27px 0;
 }
 
 footer li {
 	list-style-type: none;
-	font-size: 0.94em;
+	font-size: 0.93em;
 	color: rgb(204,204,204);
 }
 
@@ -1275,6 +1351,13 @@ footer li#left-foot {
 footer li#right-foot {
 	float: right;
 }
+
+.blue-text {
+	color: rgb(15,126,194);
+}
+
+
+/* WordPress General Styling */
 
 #post-content {
 	float: left;
@@ -1292,10 +1375,6 @@ footer li#right-foot {
 .comment-list {
 	list-style-type: none;
 	padding: 0;
-}
-
-.blue-text {
-	color: rgb(15,126,194);
 }
 
 

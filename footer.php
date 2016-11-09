@@ -16,7 +16,7 @@
 	<footer>
 		<div class="wrapper">
 			<ul class="clearfix">
-				<li id="left-foot">Copyright @ 2016 KOSTECH All rights reserved</li>
+				<li id="left-foot">Copyright @ 2016 <strong>KOSTECH</strong> All rights reserved</li>
 				<li id="right-foot">Terms & Conditions  Privacy Policy</li>
 			</ul>
 		</div><!-- .wrapper -->

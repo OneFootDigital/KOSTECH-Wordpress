@@ -53,9 +53,9 @@ get_header(); ?>
 					<div class="about-col2">
 						<h3 class="blue-text">OUR STORY</h3>
 						<p>KOSTECH was founded in 1999 when Kosie Touretsoglou decided to follow in his father’s footsteps as a domestic plasterer. He’s an active part of every project and ensures your project is finished to a high standard.</p>
-						<p>KOSTECH has been grown through hard work, determination and devotion. From domestic plastering to commercial, we have has a consistent track record of planning and executing projects for private and public organisations. We pride ourselves on delivering quality workmanship that lasts.</p><br>
+						<p>KOSTECH has been grown through hard work, determination and devotion. From domestic plastering to commercial, we have has a consistent track record of planning and executing projects for private and public organisations. We pride ourselves on delivering quality workmanship that lasts.</p>
 						<hr>
-						<h2>Developers can <a href="" class="blue-text">submit a tender package</a> directly to KOSTECH.<br>
+						<h2>Developers can <span class="blue-text">submit a tender package</span> directly to KOSTECH.<br>
 						We’d be pleased to provide a quote for your next project.</h2>
 						<hr>
 					</div>
@@ -124,7 +124,9 @@ get_header(); ?>
 						<a href=""><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png"></a>
 					</div>
 					<h3 class="blue-text">LEAVE US A MESSAGE</h3>
-					<button>SUBMIT</button>
+
+					<?php echo do_shortcode( '[contact-form-7 id="15" title="Contact Us"]' ); ?>
+
 				</div>
 			</section>
 
