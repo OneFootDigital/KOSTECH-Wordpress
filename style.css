@@ -903,17 +903,13 @@ object {
 
 
 
-/** {
-	border: 1px solid yellow;
-}*/
-
 body {
 	font-family: 'Montserrat-Regular', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
-/* Main Header */
+/* Main Header - Navigation */
 
 .main-header {
 	background-image: url("images/bg-header-nav.jpg");
@@ -923,28 +919,20 @@ body {
 	color: white;
 }
 
-.main-banner {
-	background-image: url("images/bg-header-main.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	color: white;
+h2.logo {
+	text-indent: -10000px;
+	height: 0;
+	margin: 0;
+}
+
+.main-header img {
+	margin: 20px 0 10px;
 }
 
 .wrapper {
 	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
-}
-
-h2.logo {
-	background-image: url("images/logo-Kostech.png");
-	background-repeat: no-repeat;
-	text-indent: -10000px;
-	width: 360px;
-	height: 74px;
-	float: left;
-	margin-bottom: 15px;
 }
 
 .main-header nav {
@@ -976,6 +964,14 @@ h2.logo {
 }
 
 /* Section Motto */
+
+.main-banner {
+	background-image: url("images/bg-header-main.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	color: white;
+}
 
 .motto {
 	font-family: 'Montserrat-ExtraBold', sans-serif;
@@ -1159,10 +1155,37 @@ button {
 	margin: 0 auto;
 }
 
-.latest-news table {
-	width: 100%;
+.rTableBody {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
+.rTableColumn {
+	flex-basis: 360px;
+	margin: 25px;
+}
+
+.rTableHead {
+	height: 3.2em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(51,51,51);
+	line-height: 120%;
+}
+
+.rTableCell, rTableCellDescription {
+	margin-bottom: 20px;
+}
+
+.rTableCellDescription {
+	height: 8.5em;
+	font-size: 0.97em;
+	color: rgb(77,77,77);
+}
+
+
+/*
 .latest-news th {
     text-align: left;
     padding: 0 30px 10px;
@@ -1184,7 +1207,7 @@ button {
 	display: block;
 	width: 100%;
     margin: 0 auto;
-}
+}*/
 
 .read {
 	font-size: 0.9em;
@@ -1508,6 +1531,11 @@ footer li#right-foot {
 	.latest-news h2 {
 		font-size: 2.2em;
 	}
+
+	.gallery table {
+      display: flex;
+      flex-direction: row;
+    }
 
 	#contact h2 {
 		font-size: 2.3em;

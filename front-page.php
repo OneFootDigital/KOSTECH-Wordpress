@@ -87,29 +87,33 @@ get_header(); ?>
 			<section class="latest-news">
 				<div class="gallery clearfix">
 					<h2>LATEST NEWS</h2>
-					<div>
-						<table>
-							<tr>
-								<th>Nullam vulputate consequat</th>
-								<th>Fusce at magna neque</th>
-								<th>Curabitur sollicitudin estum molestie neque</th>
-							</tr>
-							<tr>
-								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png"></td>
-								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png"></td>
-								<td><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png"></td>
-							</tr>
-							<tr>
-								<td>Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</td>
-								<td>Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</td>
-								<td>Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</td>
-							</tr>
-							<tr>
-								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
-								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
-								<td><p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png"></p></td>
-							</tr>
-						</table>
+					<div class="rTable">
+						<div class="rTableBody">
+							<div class="rTableColumn">
+								<div class="rTableHead">Nullam vulputate consequat</div>
+								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png" alt="" /></div>
+								<div class="rTableCellDescription">Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</div>
+								<div class="rTableCell">
+									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
+								</div>	
+							</div>
+							<div class="rTableColumn">
+								<div class="rTableHead">Fusce at magna neque</div>
+								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png" alt="" /></div>
+								<div class="rTableCellDescription">Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</div>
+								<div class="rTableCell">
+									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
+								</div>					
+							</div>
+							<div class="rTableColumn">
+								<div class="rTableHead">Curabitur sollicitudin estum molestie neque</div>
+								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png" alt="" /></div>
+								<div class="rTableCellDescription">Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</div>
+								<div class="rTableCell">
+									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>		
 			</section>
