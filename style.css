@@ -1039,6 +1039,14 @@ button {
 	padding-right: 3%;
 }
 
+.about-col1 p:nth-child(3) {
+	margin-bottom: 0;
+}
+
+.about-col1 ul {
+	margin-bottom: 50px;
+}
+
 .about-col2 {
 	width: 47%;
 	float: right;
@@ -1183,31 +1191,6 @@ button {
 	font-size: 0.97em;
 	color: rgb(77,77,77);
 }
-
-
-/*
-.latest-news th {
-    text-align: left;
-    padding: 0 30px 10px;
-    vertical-align: top;
-    font-size: 1.5em;
-	color: rgb(51,51,51);
-	line-height: 120%;
-}
-
-.latest-news td {
-    font-size: 0.97em;
-    width: 30%;
-    vertical-align: top;
-    padding: 10px 30px;
-    color: rgb(77,77,77);
-}
-
-.latest-news td .news-image {
-	display: block;
-	width: 100%;
-    margin: 0 auto;
-}*/
 
 .read {
 	font-size: 0.9em;
@@ -1492,8 +1475,24 @@ footer li#right-foot {
 
 @media (max-width: 768px) {
 
+	.wrapper {
+		width: 85%
+	}
+
 	.about-header {
 		font-size: 1.6em;
+	}
+
+	.about-col1 {
+		width: 100%;
+		float: none;
+		/*padding-right: 3%;*/
+	}
+
+	.about-col2 {
+		width: 100%;
+		float: none;
+		/*padding-left: 3%;*/
 	}
 
 	#culture {
