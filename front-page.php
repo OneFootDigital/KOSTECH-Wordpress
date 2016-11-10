@@ -120,14 +120,14 @@ get_header(); ?>
 
 			<section id="contact">
 				<div class="wrapper">
-					<h2>CONTACT US</h2>
+					<h2>CONTACT <span class="blue-text">US</span></h2>
 					<div class="contact-info">
 						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/phone-contact.png">123-456-7890</p>
 						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/pin.png">412 Stone Way<br>
 						Melbourne</p>
 						<a href=""><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png"></a>
 					</div>
-					<h3 class="blue-text">LEAVE US A MESSAGE</h3>
+					<h3>LEAVE US A MESSAGE</h3>
 
 					<?php echo do_shortcode( '[contact-form-7 id="15" title="Contact Us"]' ); ?>
 
