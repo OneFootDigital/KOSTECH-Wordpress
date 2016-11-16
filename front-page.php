@@ -67,20 +67,23 @@ get_header(); ?>
 					<div class="culture-header">
 					<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">KNOW HOW</span></h3>
 					</div>
-						<table>
-							<tr>
-								<th>DIVERSE INDUSTRY EXPERIENCE</th>
-								<td>We’ve been involved in a diverse range of new, repair and renovation projects. We’ve provided professional plastering services for office spaces, retail ventures, restaurants, childcare centres and apartment facilities.</td>
-							</tr>
-							<tr>
-								<th>QUALITY YOU CAN TRUST</th>
-								<td>At KOSTECH, we go above and beyond to deliver a superior result on your project.</td>
-							</tr>
-							<tr>
-								<th>OUR COMMITMENT</th>
-								<td>We’re committed to ensuring your project is on schedule and on budget, without compromising on quality.</td>
-							</tr>
-						</table>
+
+					<div class="cTable">
+						<div class="cTableBody">
+							<div class="cTableRow">
+								<div class="cTableHead">DIVERSE INDUSTRY EXPERIENCE</div>
+								<div class="cTableCell">We’ve been involved in a diverse range of new, repair and renovation projects. We’ve provided professional plastering services for office spaces, retail ventures, restaurants, childcare centres and apartment facilities.</div>
+							</div>
+							<div class="cTableRow">
+								<div class="cTableHead">QUALITY YOU CAN TRUST</div>
+								<div class="cTableCell">At KOSTECH, we go above and beyond to deliver a superior result on your project.</div>
+								</div>
+							<div class="cTableRow">
+								<div class="cTableHead">OUR COMMITMENT</div>
+								<div class="cTableCell">We’re committed to ensuring your project is on schedule and on budget, without compromising on quality.</div>
+							</div>
+						</div>
+					</div>
 				</div>	
 			</section>
 
