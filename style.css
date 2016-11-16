@@ -1115,36 +1115,27 @@ button {
 	line-height: 155%;
 }
 
-.cTable {
+#culture table {
 	background:rgba(1,1,1,0.4);
-	padding: 57px 40px;
-	width: 83%;
+	padding: 70px 60px 25px 40px;
+	line-height: 145%;
+	width: 84%;
 	margin: 0 auto;
 }
 
-.cTableBody {
-	display: flex;
-	flex-direction: column;
+#culture th {
+    width: 45%;
+    vertical-align: top;
+    text-align: right;
+    font-size: 1.1em;
+    padding-right: 62px;
 }
 
-.cTableRow {
-	display: flex;
-	margin: 17px 0;
-}
-
-.cTableHead {
-	flex-basis: 43%;
-	text-align: right;
-	padding-right: 60px;
-	font-size: 1.1em;
-	font-weight: bold;
-}
-
-.cTableCell {
-	flex-basis: 57%;
-	padding-right: 40px;
-	font-size: 0.97em;
-	line-height: 160%;
+#culture td {
+    width: 55%;
+    vertical-align: top;
+    font-size: 0.97em;
+    padding-bottom: 35px;
 }
 
 
@@ -1191,7 +1182,7 @@ button {
 	line-height: 120%;
 }
 
-.rTableCell {
+.rTableCell, rTableCellDescription {
 	margin-bottom: 20px;
 }
 
@@ -1308,10 +1299,6 @@ button {
 	border-radius: 0;
 }
 
-.ajax-loader {
-	width: 0;
-}
-
 /* Section Map */
 
 .map {
@@ -1418,6 +1405,7 @@ footer li#right-foot {
 }
 
 
+
 @media (max-width: 1300px) {
 
 	.about-header {
@@ -1431,11 +1419,13 @@ footer li#right-foot {
 
 	.about-col1 {
 		width: 47%;
+		float: left;
 		padding-right: 3%;
 	}
 
 	.about-col2 {
 		width: 47%;
+		float: right;
 		padding-left: 3%;
 	}
 
@@ -1453,23 +1443,32 @@ footer li#right-foot {
 @media (max-width: 1024px) { 
 
 	.about-col2 h2 {
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
+
 
 	#culture h3 {
 		font-size: 0.8em;
 		line-height: 130%;
 	}
 
+	
+
 	.about-col1 {
 		width: 48%;
+		float: left;
 		padding-right: 2%;
 	}
 
 	.about-col2 {
 		width: 48%;
+		float: right;
 		padding-left: 2%;
 	}
+
+
+
+
 	
 }
 
@@ -1477,30 +1476,7 @@ footer li#right-foot {
 @media (max-width: 768px) {
 
 	.wrapper {
-		width: 90%
-	}
-
-	.motto {
-		margin: 0 auto;
-		padding-top: 60px;
-	}
-
-	.find-out {
-		width: 100%;
-		margin: 70px auto;
-		font-size: 1.4em;
-		padding-bottom: 60px;
-	}
-
-	.find-out p {
-		margin: 0;
-	}
-
-	button {
-	    font-size: 14px;
-	    margin: 30px auto;
-	    height:45px;
-		width:200px;
+		width: 85%
 	}
 
 	.about-header {
@@ -1510,101 +1486,58 @@ footer li#right-foot {
 	.about-col1 {
 		width: 100%;
 		float: none;
+		/*padding-right: 3%;*/
 	}
 
 	.about-col2 {
 		width: 100%;
 		float: none;
+		/*padding-left: 3%;*/
 	}
 
 	#culture {
-		margin-top: 80px;
-		padding: 0 0 60px;
+		margin-top: 100px;
+		padding: 0 0 80px;
 	}
 
 	#culture h3 {
-		font-size: 0.6em;
+		font-size: 0.7em;
 	}
 
-	.cTable {
-		padding: 40px 20px 0;
-		width: 100%;
+	#culture table {
+		background:rgba(1,1,1,0.4);
+		padding: 70px 35px 15px 25px;
+		line-height: 150%;
+		width: 95%;
+		margin: 0 auto;
 	}
 
-	.cTableRow {
-		flex-direction: column;
-		margin: 17px 0;
+	#culture th {
+	    width: 45%;
+	    vertical-align: top;
+	    text-align: right;
+	    font-size: 1.1em;
+	    padding-right: 25px;
 	}
 
-	.cTableHead {
-		padding: 0 0 20px;
-		text-align: left;
-	}
-
-	.cTableCell {
-		padding: 0 0 40px;
-	}
-
-	.latest-news {
-		padding: 40px 0;
+	#culture td {
+	    width: 55%;
+	    vertical-align: top;
+	    font-size: 0.97em;
+	    padding-bottom: 35px;
 	}
 
 	.latest-news h2 {
 		font-size: 2.2em;
 	}
 
-	.rTableColumn {
-		margin: 25px 0;
-	}
-
-	.rTableHead {
-		height: auto;
-		font-size: 1.3em;
-	}
-
-	.rTableHead,
-	.rTableCell,
-	.rTableCellDescription {
-		margin-bottom: 20px;
-	}
-
-	.rTableCellDescription {
-		height: auto;
-		font-size: 0.97em;
-	}
+	.gallery table {
+      display: flex;
+      flex-direction: row;
+    }
 
 	#contact h2 {
 		font-size: 2.3em;
-	}
-
-	.wpcf7-form {
-		justify-content: flex-start;
-	}
-
-	.wpcf7 p:nth-child(-n+4) {
-		flex-basis: 100%;
-		margin-bottom: 4px;
-	}
-
-	.wpcf7 p input:nth-child(-n+4) {
-		height: 40px;
-	}
-
-	.wpcf7 p input[type="submit"] {
-	    font-size: 14px;
-	    margin: 8px auto;
-	    height:45px;
-		width:200px;
-	}
-
-	.map div {
-	    height: 350px;
-	    line-height: 390px;
-	}
-
-	footer li#left-foot,
-	footer li#right-foot {
-		font-size: 0.6em;
 	}
 
 }
