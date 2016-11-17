@@ -26,8 +26,8 @@ get_header(); ?>
 					<img src="<?php echo(get_template_directory_uri()); ?>/images/bottom-block.png">		
 				</div>
 				<div class="find-out">
-					<p>Donec imperdiet suscipit purus, sed</p>
-					<p>semper orci viverra sit amet.</p>
+					<p>Use Melbourne's best Commercial Plasterers</p>
+					<p>for your next project</p>
 					<button>FIND OUT HOW</button>
 				</div>
 			</section>
@@ -65,7 +65,7 @@ get_header(); ?>
 			<section id="culture">
 				<div class="wrapper">
 					<div class="culture-header">
-					<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">KNOW HOW</span></h3>
+					<h3>BUILT ON A CULTURE OF<br><span class="blue-text">COLLABORATION</span> AND <span class="blue-text">EXPERTISE</span></h3>
 					</div>
 
 					<div class="cTable">
@@ -76,7 +76,7 @@ get_header(); ?>
 							</div>
 							<div class="cTableRow">
 								<div class="cTableHead">QUALITY YOU CAN TRUST</div>
-								<div class="cTableCell">At KOSTECH, we go above and beyond to deliver a superior result on your project.</div>
+								<div class="cTableCell">Whether it's a commercial or domestic project, at KOSTECH, we go above and beyond to deliver a superior result for you.</div>
 								</div>
 							<div class="cTableRow">
 								<div class="cTableHead">OUR COMMITMENT</div>
@@ -93,25 +93,25 @@ get_header(); ?>
 					<div class="rTable">
 						<div class="rTableBody">
 							<div class="rTableColumn">
-								<div class="rTableHead">Nullam vulputate consequat</div>
+								<div class="rTableHead">Our new website goes live</div>
 								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news1.png" alt="" /></div>
-								<div class="rTableCellDescription">Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis. Nulla facilisi. Curabitur sollicitudin molestie neque, in tristique justo fringilla sit amet.</div>
+								<div class="rTableCellDescription">KOSTECH continues to expand its presence with our brand new website which we think looks fantastic and represents our professionalism and quality work. Thanks to the guys over at OneFootDigital.com</div>
 								<div class="rTableCell">
 									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
 								</div>	
 							</div>
 							<div class="rTableColumn">
-								<div class="rTableHead">Fusce at magna neque</div>
+								<div class="rTableHead">Tender Won</div>
 								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news2.png" alt="" /></div>
-								<div class="rTableCellDescription">Cras a accumsan mi. Donec imperdiet suscipit purus, sed semper orci viverra sit amet. Vivamus placerat purus libero, et cursus mi egestas nec. Nullam vulputate consequat ligula nec iaculis.</div>
+								<div class="rTableCellDescription">Our plastering services continue to gain recognition as we've just won the tender for the plastering work at Trio Residences in Blackburn. ElementFive is a company we've enjoyed working with before and we look forward to working with them again on this project.</div>
 								<div class="rTableCell">
 									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
 								</div>					
 							</div>
 							<div class="rTableColumn">
-								<div class="rTableHead">Curabitur sollicitudin estum molestie neque</div>
+								<div class="rTableHead">New Office Manager and Estimator</div>
 								<div class="rTableCell"><img class="news-image" src="<?php echo(get_template_directory_uri()); ?>/images/bg-news3.png" alt="" /></div>
-								<div class="rTableCellDescription">Mauris dui ante, suscipit vel sem nec, congue finibus nisi. Phasellus ac nulla risus. Pellentesque in felis in tortor varius blandit eu quis orci.</div>
+								<div class="rTableCellDescription">Our office operations continue to be made more efficient to match our work on-site with a new office manager and estimator being brought in to ensure we continue to provide the same quality service our clients have come to appreciate. </div>
 								<div class="rTableCell">
 									<p class="read">Read More <img src="<?php echo(get_template_directory_uri()); ?>/images/arrow-read-more.png" alt="" /></p>
 								</div>
@@ -125,9 +125,9 @@ get_header(); ?>
 				<div class="wrapper">
 					<h2>CONTACT <span class="blue-text">US</span></h2>
 					<div class="contact-info">
-						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/phone-contact.png">123-456-7890</p>
-						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/pin.png">412 Stone Way<br>
-						Melbourne</p>
+						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/phone-contact.png">(03) 8839 4328</p>
+						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/pin.png">227 Springfield Rd<br>
+						Blackburn North, Melbourne</p>
 						<a href=""><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png"></a>
 					</div>
 					<h3>LEAVE US A MESSAGE</h3>
