@@ -25,5 +25,33 @@
 
 <?php wp_footer(); ?>
 
+<script type="text/javascript">
+	(function($) {
+		$(document).ready(function() {
+
+			$('#menu-toggle').click(function (e) {
+				$('#menu').toggleClass('open');
+				e.preventDefault();
+		    });
+
+		    $('#menu > li').click(function () {
+				$('#menu').toggleClass('open');
+		    });
+
+		    $('a[href^="#"]').on('click', function(event) {
+				var target = $(this.getAttribute('href'));
+				if( target.length ) {
+				    event.preventDefault();
+				    $('html, body').stop().animate({
+				        scrollTop: target.offset().top
+				    }, 1000);
+				}
+			});
+    
+		});
+	}(jQuery));
+
+</script>
+
 </body>
 </html>
