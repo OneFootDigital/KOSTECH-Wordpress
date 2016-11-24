@@ -29,15 +29,18 @@
 	(function($) {
 		$(document).ready(function() {
 
+			// Open mobile menu on button click
 			$('#menu-toggle').click(function (e) {
 				$('#menu').toggleClass('open');
 				e.preventDefault();
 		    });
 
+			// Close mobile menu on item click
 		    $('#menu > li').click(function () {
 				$('#menu').toggleClass('open');
 		    });
 
+		    // Smooth scroll on menu item click
 		    $('a[href^="#"]').on('click', function(event) {
 				var target = $(this.getAttribute('href'));
 				if( target.length ) {
@@ -46,6 +49,15 @@
 				        scrollTop: target.offset().top
 				    }, 1000);
 				}
+			});
+
+		    // Tidy up mobile menu when resizing
+			$(window).resize(function() {
+			    if($( window ).width() >= "767") {
+			        if($("#menu").hasClass("open")) {
+			            $("#menu").toggleClass("open");
+			        }
+			    }
 			});
     
 		});

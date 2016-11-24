@@ -28,8 +28,8 @@
 		<div class="wrapper clearfix">
 			<h2 class="logo">Kostech</h2>
 			<img src="<?php echo(get_template_directory_uri()); ?>//images/logo-Kostech.png">
-			<nav role="navigation nav">
-				<a id="menu-toggle" class="anchor-link" href="">Menu</a>
+			<nav role="navigation" class="nav">
+				<a id="menu-toggle" class="anchor-link" href="">&#9776;</a>
 				<h2>Main Navigation</h2>
 				<ul id="menu" class="clearfix simple-toggle">
 					<li><a href="#page">PROJECTS</a></li>
