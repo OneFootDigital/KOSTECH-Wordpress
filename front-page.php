@@ -28,7 +28,7 @@ get_header(); ?>
 				<div class="find-out">
 					<p>Use Melbourne's best Commercial Plasterers</p>
 					<p>for your next project</p>
-					<button>FIND OUT HOW</button>
+					<button><a href="#contact">FIND OUT HOW</a></button>
 				</div>
 			</section>
 

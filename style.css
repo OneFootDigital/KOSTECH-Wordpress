@@ -1015,7 +1015,6 @@ ul.simple-toggle li a:hover { color: rgb(15,126,194); }
 }
 
 .find-out button {
-	display: none;
     background-color: transparent;
     background-repeat:no-repeat;
     color: white;
@@ -1029,6 +1028,13 @@ ul.simple-toggle li a:hover { color: rgb(15,126,194); }
 	width:230px;
 }
 
+.find-out a, .find-out a:visited {
+	text-decoration: none;
+	color: white;
+	outline: 0;
+}
+
+
 /* Section About Us */
 
 .about-header {
@@ -1037,9 +1043,9 @@ ul.simple-toggle li a:hover { color: rgb(15,126,194); }
 	color: rgb(15,126,194);
 }
 
-#about-us h2 {
+/*#about-us h2 {
 	margin-bottom: 25px;
-}
+}*/
 
 .about-col1 {
 	width: 47%;
@@ -1423,6 +1429,7 @@ footer li#right-foot {
 
 	.motto h1 {
 		font-size: 6vw;
+		margin: 20px 10px;
 	}
 
 }
@@ -1518,14 +1525,14 @@ footer li#right-foot {
 
 .anchor-link, .anchor-link:visited, .anchor-link:focus { 
 	display: none; 
-	color: #eee; 
+	color: rgb(15,126,194); 
 	background-color: transparent; 
 	text-decoration: none; 
 	line-height:40px;
 	outline: 0;
-	font-size:2.7em !important;
+	font-size:2.2em !important;
 	font-weight:bold;
-	text-shadow: 2px 2px 4px #000000;
+/*	text-shadow: 1px 1px 1px #fff;*/
 /*	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;*/
 }
 
@@ -1571,6 +1578,10 @@ footer li#right-foot {
 	.motto {
 		margin: 0 auto;
 		padding-top: 60px;
+	}
+
+	.motto h1 {
+		font-size: .8em;
 	}
 
 	.find-out {
@@ -1704,6 +1715,10 @@ footer li#right-foot {
 
 	.anchor-link, .anchor-link:visited, .anchor-link:focus, #mobile-nav { 
 		top: 20px;
+	}
+
+	.motto h1 {
+		font-size: .6em;
 	}
 
 }
