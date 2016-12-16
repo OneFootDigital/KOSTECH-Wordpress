@@ -20,7 +20,7 @@ get_header(); ?>
 			<!-- Start Homepage Content -->
 			<section class="main-banner">
 				<div class="motto">
-					<img src="<?php echo(get_template_directory_uri()); ?>//images/top-block.png" alt="Title Top Block">
+					<img src="<?php echo(get_template_directory_uri()); ?>/images/top-block.png" alt="Title Top Block">
 					<h1>MELBOURNE'S BEST<br>
 					<span class="blue-text">PLASTERING</span> CONTRACTORS</h1>
 					<img src="<?php echo(get_template_directory_uri()); ?>/images/bottom-block.png" alt="Title Bottom Block">		
@@ -128,7 +128,7 @@ get_header(); ?>
 						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/phone-contact.png" alt="Phone Icon">(03) 8839 4328</p>
 						<p><img class="icon" src="<?php echo(get_template_directory_uri()); ?>/images/pin.png" alt="Map Pin">227 Springfield Rd<br>
 						Blackburn North, Melbourne</p>
-						<a href="#"><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png" alt="LinkedIn Icon"></a>
+						<a href=""><img class="social" src="<?php echo(get_template_directory_uri()); ?>/images/linkedin.png" alt="LinkedIn Icon"></a>
 					</div>
 					<h3>LEAVE US A MESSAGE</h3>
 
@@ -139,7 +139,7 @@ get_header(); ?>
 
 			<section class="map">
 				<div>
-					<a href="#" class="blue-text">View larger map</a>
+					<a href="" class="blue-text">View larger map</a>
 				</div>
 			</section>
 			<!-- End Homepage Content -->
