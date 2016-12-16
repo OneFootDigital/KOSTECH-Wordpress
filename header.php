@@ -12,9 +12,9 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<title>Kostech</title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kostech</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
@@ -27,7 +27,7 @@
 	<header class="main-header">
 		<div class="wrapper clearfix">
 			<h2 class="logo">Kostech</h2>
-			<img src="<?php echo(get_template_directory_uri()); ?>//images/logo-Kostech.png">
+			<img src="<?php echo(get_template_directory_uri()); ?>/images/logo-Kostech.png" alt="Kostech Logo">
 			<nav role="navigation" class="nav">
 				<a id="menu-toggle" class="anchor-link" href="">&#9776;</a>
 				<h2>Main Navigation</h2>
